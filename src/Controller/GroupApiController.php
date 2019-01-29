@@ -36,7 +36,7 @@ class GroupApiController extends AbstractController
 
     /**
      * @Route("/{id}", methods={"GET"}, requirements={"id": "\d+"})
-     * @CF\ParamConverter("user", class="App\Entity\Group")
+     * @CF\ParamConverter("group", class="App\Entity\Group")
      */
     public function getGroup(Group $group): Response
     {
