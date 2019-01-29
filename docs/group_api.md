@@ -16,8 +16,8 @@ Example API call:
 POST /api/groups
 
 {
-    "name":"Jane Doe",
-    "groups":[
+    "name":"Administrators",
+    "users":[
                 "2"
               ]
 }
@@ -94,8 +94,6 @@ DELETE /api/groups/:id
 ```
 
 ```
-
-
 
 ## Groups - List
 
