@@ -28,15 +28,23 @@ POST /api/groups
 ```
 {
   "id": 7,
-  "name": "Jane Doe",
-  "created_at": "2019-01-29 18:31:26",
-  "updated_at": "2019-01-29 18:31:26",
-  "groups": [
+  "name": "Administrators",
+  "created_at": "2019-01-29 18:58:00",
+  "updated_at": "2019-01-29 18:58:00",
+  "users": [
     {
       "id": 2,
-      "name": "Administrator",
-      "created_at": "2019-01-29 14:50:04",
-      "updated_at": "2019-01-29 14:50:04"
+      "name": "Janeth Doe",
+      "created_at": "2019-01-29 14:16:33",
+      "updated_at": "2019-01-29 18:58:00",
+      "groups": [
+        {
+          "id": 7,
+          "name": "Administrators",
+          "created_at": "2019-01-29 18:58:00",
+          "updated_at": "2019-01-29 18:58:00"
+        }
+      ]
     }
   ]
 }
