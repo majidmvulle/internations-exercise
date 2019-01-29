@@ -1,0 +1,11 @@
+{% extends "base.html.twig" %}
+{% block body %}
+    {{ parent() }}
+
+    <div id="root" class="pt-3 mb-3"></div>
+{% endblock %}
+
+{% block javascripts %}
+    <script type="text/javascript" src="{{ asset('build/runtime.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('build/js/app.js') }}"></script>
+{% endblock %}

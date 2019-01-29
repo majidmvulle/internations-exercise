@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}User Management{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="stylesheet" href="{{ asset('build/css/app.css') }}">
+</head>
+<body>
+{% block body %}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                 <a class="navbar-brand" href="/"> User Management </a>
+    </nav>
+{% endblock %}
+<footer class="text-center text-muted">
+    &copy; {{ "now"|date('Y') }} InterNations.
+</footer>
+
+{% block javascripts %}{% endblock %}
+</body>
+</html>
